@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Bar-website/static/css/main.607eb560.css",
+    "main.js": "/Bar-website/static/js/main.eb66ea8f.js",
+    "static/js/787.1ff039a0.chunk.js": "/Bar-website/static/js/787.1ff039a0.chunk.js",
+    "static/media/body.png": "/Bar-website/static/media/body.cf545b5d9ff5dd0087d2.png",
+    "static/media/wine.jpg": "/Bar-website/static/media/wine.cfec86f491809de5fc91.jpg",
+    "static/media/ann.jpg": "/Bar-website/static/media/ann.3f957a401f6909ec76f7.jpg",
+    "static/media/vip.png": "/Bar-website/static/media/vip.268a971ad49edb5bdcb7.png",
+    "static/media/banner.jpg": "/Bar-website/static/media/banner.14364de80cc68a35bc82.jpg",
+    "static/media/private.jpg": "/Bar-website/static/media/private.1382461a9e666fb72a2e.jpg",
+    "static/media/livemusic.jpg": "/Bar-website/static/media/livemusic.1c0da5f3148862e54c44.jpg",
+    "index.html": "/Bar-website/index.html",
+    "main.607eb560.css.map": "/Bar-website/static/css/main.607eb560.css.map",
+    "main.eb66ea8f.js.map": "/Bar-website/static/js/main.eb66ea8f.js.map",
+    "787.1ff039a0.chunk.js.map": "/Bar-website/static/js/787.1ff039a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.607eb560.css",
+    "static/js/main.eb66ea8f.js"
+  ]
+}
