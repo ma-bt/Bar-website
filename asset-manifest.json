@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bar-website/static/css/main.607eb560.css",
-    "main.js": "/Bar-website/static/js/main.94ca2d1f.js",
+    "main.js": "/Bar-website/static/js/main.1372ae25.js",
     "static/js/787.1ff039a0.chunk.js": "/Bar-website/static/js/787.1ff039a0.chunk.js",
     "static/media/body.png": "/Bar-website/static/media/body.cf545b5d9ff5dd0087d2.png",
     "static/media/wine.jpg": "/Bar-website/static/media/wine.cfec86f491809de5fc91.jpg",
@@ -12,11 +12,11 @@
     "static/media/livemusic.jpg": "/Bar-website/static/media/livemusic.1c0da5f3148862e54c44.jpg",
     "index.html": "/Bar-website/index.html",
     "main.607eb560.css.map": "/Bar-website/static/css/main.607eb560.css.map",
-    "main.94ca2d1f.js.map": "/Bar-website/static/js/main.94ca2d1f.js.map",
+    "main.1372ae25.js.map": "/Bar-website/static/js/main.1372ae25.js.map",
     "787.1ff039a0.chunk.js.map": "/Bar-website/static/js/787.1ff039a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.607eb560.css",
-    "static/js/main.94ca2d1f.js"
+    "static/js/main.1372ae25.js"
   ]
 }
