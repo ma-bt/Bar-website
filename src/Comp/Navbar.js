@@ -2,7 +2,7 @@ import React from 'react'
 import Bar from '../Pages/Bar'
 import Event from '../Pages/Event'
 import Menu from '../Pages/Menu'
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, Navigate } from "react-router-dom"
 import { Link } from "react-router-dom";
 import Home from '../Pages/Home'
 import About from '../Pages/About'
@@ -62,6 +62,7 @@ export default function Navbar() {
                 <Route path='/event' element={<Event />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/contact' element={<Contact />} />
+                <Route path="*" element={<Navigate to="/contact" />} />
 
             </Routes>
 
