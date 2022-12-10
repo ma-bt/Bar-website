@@ -2,7 +2,7 @@ import React from 'react'
 import Bar from '../Pages/Bar'
 import Event from '../Pages/Event'
 import Menu from '../Pages/Menu'
-import { Routes, Route, Navigate } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import { Link } from "react-router-dom";
 import Home from '../Pages/Home'
 import About from '../Pages/About'
@@ -25,13 +25,13 @@ export default function Navbar() {
                         </div>
                         <div className=' col col-sm-4  d-lg-none d-sm-block'>
                             <ul className='list-unstyled d-flex justify-content-between  g-0'>
-                                <li><Link to='/' className='text-decoration-none text-reset ' ><h5>Home</h5></Link></li>
+                                <li><Link to='/Bar-website' className='text-decoration-none text-reset ' ><h5>Home</h5></Link></li>
                                 <li><Link to='/menu' className='text-decoration-none text-reset'><h5>Menu</h5></Link></li>
                             </ul>
                         </div>
 
                         <div className='col col-lg-2  col-sm-4 g-0   text-center '>
-                            <Link href='#home' className='text-decoration-none text-reset '>
+                            <Link to='/Bar-website' className='text-decoration-none text-reset '>
                                 <h1 className=' fw-bold' style={{ color: ' #ce0303' }}>Taral</h1>
                             </Link>
                         </div>
@@ -39,7 +39,7 @@ export default function Navbar() {
                         <div className=' col col-sm-4 d-lg-none d-sm-block'>
                             <ul className='list-unstyled d-flex justify-content-between  g-0'>
                                 <li><Link to='/event' className='text-decoration-none text-reset'><h5>Event</h5></Link></li>
-                                <li><a href='/Bar-website/contact' className='text-decoration-none text-reset' ><h5>Contact</h5></a></li>
+                                <li><a href='/contact' className='text-decoration-none text-reset' ><h5>Contact</h5></a></li>
                             </ul>
                         </div>
 
@@ -47,7 +47,7 @@ export default function Navbar() {
                             <ul className='list-unstyled d-flex gap-5 justify-content-start  '>
                                 <li><Link to='/bar' className='text-decoration-none text-reset'><h5>Bar</h5></Link></li>
                                 <li><a href='/about' className='text-decoration-none text-reset'><h5>About</h5></a></li>
-                                <li><a href='/Bar-website/contact' className='text-decoration-none text-reset' ><h5>Contact</h5></a></li>
+                                <li><a href='/contact' className='text-decoration-none text-reset' ><h5>Contact</h5></a></li>
                                 <li className=' '><h3><i class="bi bi-telephone ms-4 pe-4"></i><i class="bi bi-envelope"></i></h3></li>
                             </ul>
                         </div>
@@ -61,8 +61,7 @@ export default function Navbar() {
                 <Route path='/bar' element={<Bar />} />
                 <Route path='/event' element={<Event />} />
                 <Route path='/about' element={<About />} />
-                <Route path='/Bar-website/contact' element={<Contact />} />
-                <Route path="*" element={<Navigate to="/contact" />} />
+                <Route path='/contact' element={<Contact />} />
 
             </Routes>
 
