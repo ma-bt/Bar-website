@@ -39,7 +39,7 @@ export default function Navbar() {
                         <div className=' col col-sm-4 d-lg-none d-sm-block'>
                             <ul className='list-unstyled d-flex justify-content-between  g-0'>
                                 <li><Link to='/event' className='text-decoration-none text-reset'><h5>Event</h5></Link></li>
-                                <li><a href='/contact' className='text-decoration-none text-reset' ><h5>Contact</h5></a></li>
+                                <li><a href='/Bar-website/contact' className='text-decoration-none text-reset' ><h5>Contact</h5></a></li>
                             </ul>
                         </div>
 
@@ -47,7 +47,7 @@ export default function Navbar() {
                             <ul className='list-unstyled d-flex gap-5 justify-content-start  '>
                                 <li><Link to='/bar' className='text-decoration-none text-reset'><h5>Bar</h5></Link></li>
                                 <li><a href='/about' className='text-decoration-none text-reset'><h5>About</h5></a></li>
-                                <li><a href='/contact' className='text-decoration-none text-reset' ><h5>Contact</h5></a></li>
+                                <li><a href='/Bar-website/contact' className='text-decoration-none text-reset' ><h5>Contact</h5></a></li>
                                 <li className=' '><h3><i class="bi bi-telephone ms-4 pe-4"></i><i class="bi bi-envelope"></i></h3></li>
                             </ul>
                         </div>
@@ -61,7 +61,7 @@ export default function Navbar() {
                 <Route path='/bar' element={<Bar />} />
                 <Route path='/event' element={<Event />} />
                 <Route path='/about' element={<About />} />
-                <Route path='/contact' element={<Contact />} />
+                <Route path='/Bar-website/contact' element={<Contact />} />
                 <Route path="*" element={<Navigate to="/contact" />} />
 
             </Routes>

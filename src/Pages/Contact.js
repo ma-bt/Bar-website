@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
     return (
         <>
-            <section id='contact' className=''>
+            <section >
              
                     <div> <h1 className=' fw-light text-center py-5  ' style={{ color: ' #ce0303' }}>CONTACT US</h1></div>
                     <div className='bg-light'>
